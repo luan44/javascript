@@ -9,6 +9,7 @@
             background-color: rgb(160, 86, 230);
             color: white;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
         }
     </style>
 </head>
@@ -16,9 +17,8 @@
     <h1>Olá, mundo!</h1>
     <p>Me livrei da maldiçao!</p>
     <script>
-        window.alert('Estou aprendendo a usar JavaScript') //Uso para exibir uma janela de aviso
-        window.confirm('Você já aprendeu?') //Uso para exibir uma janela de confirmação
-        window.prompt('Qual é o seu nome?') //Uso para exibir uma janela de pergunta
+        var nome = window.prompt('Qual é o seu nome?') //Uso para exibir uma janela de pergunta...
+        window.alert('É um prazer te conhecer, ' + nome + '!')
     </script>
 </body>
 </html>
